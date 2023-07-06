@@ -160,3 +160,38 @@
     flex-direction: column;
     gap: 16px;
 }
+.bg-image {
+    background-image: url('/images/Frame.jpg');
+    width: 1440px;
+    height: 566px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 12px;
+    
+}
+.white-button {
+    width: 84px;
+    height: 40px;
+}
+.bg-image-h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: center;
+}
+.bg-image-h2 {
+    width: 540px;
+    height: 96px;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-align: center;
+
+}
