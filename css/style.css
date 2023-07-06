@@ -165,13 +165,14 @@
     width: 1440px;
     height: 566px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
     gap: 12px;
+    
     
 }
 .white-button {
@@ -194,4 +195,62 @@
     color: #FFFFFF;
     text-align: center;
 
+}
+.footer {
+    width: 1440px;
+    height: 336px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 96px 150px 96px 150px;
+    
+}
+.footer-container {
+    width: 1140px;
+    height: 144px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: center;
+    
+
+
+}
+.footer-h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer-h5 {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-container1 {
+    width: 228px;
+    height: 144px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer-container2 {
+    width: 228px;
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer-container3 {
+    width: 228px;
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer-container4 {
+    width: 228px;
+    height: 88px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
