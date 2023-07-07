@@ -73,12 +73,15 @@
 }
 .wraper-logo {
     width: 490px;
-    height: 48px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 
+}
+.right-wraper {
+    max-width: 490px;
+    width: 100%;
 }
 .feature {
     max-width: 1440px;
