@@ -1,22 +1,23 @@
 .body {
-    width: 1440px;
+    max-width: 1440px;
     
 }
 .logo {
-    width: 101px;
+    max-width: 101px;
     height: 27px;
 }
 .button {
-    width: 100px;
+    max-width: 100px;
     height: 48px;
 }
 .header {
-    width: 1440px;
-    height: 96px;
+    max-width: 1440px;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-content: space-evenly;
+    padding: 17px 32px 17px 32px;
 }
 .ul-item {
     width: 328px;
@@ -31,8 +32,8 @@
 
 }
 .wraper {
-    width: 1440px;
-    height: 556px;
+    max-width: 1440px;
+    
     padding: 64px 165px 64px 165px;
     display: flex;
     justify-content: center;
@@ -41,7 +42,7 @@
 
 }
 .left-wraper {
-    width: 490px;
+    max-width: 490px;
     height: 288px;
     gap: 40px;
     display: flex;
@@ -80,7 +81,7 @@
 
 }
 .feature {
-    width: 1440px;
+    max-width: 1440px;
     height: 256px;
     padding: 64px 165px 64px 165px;
     display: flex;
@@ -90,7 +91,7 @@
 }
 
 .section-feature-box  {
-    width: 360px;
+    max-width: 360px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -100,32 +101,30 @@
     font-weight: bold;
 }
 .feature-p{
-    width: 360px;
+    max-width: 360px;
     height: 72px;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400px;
 }
 .feature-box {
-    width: 360px;
+    max-width: 360px;
     height: 128px;
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 .black-section {
-    width: 1440px;
-    height: 620px;
+    max-width: 1440px;
+    
     background-color: black;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    
     padding: 96px 150px 96px 150px;
     
 }
 .black-wraper {
-    width: 1140px;
-    height: 428px;  
+    max-width: 1140px;
+    height: 428px; 
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -137,6 +136,10 @@
     font-size: 24px;
     font-weight: bold;
     color:  #FFFFFF;
+}
+.black-p-box {
+    display: flex;
+    flex-direction: column;
 }
 .black-p {
     font-family: 'Inter', sans-serif;
@@ -154,30 +157,37 @@
     border-radius: 12px;
 }
 .right-black-wraper {
-    width: 503.5px;
-    height: 264px;
+    max-width: 503.5px;
+    
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 .bg-image {
     background-image: url('/images/Frame.jpg');
-    width: 1440px;
+    max-width: 1440px;
     height: 566px;
     background-repeat: no-repeat;
     background-size: cover;
+    
+    
+    
+}
+.bg-content {
+    width: 540px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
     gap: 12px;
-    
-    
+    padding-top: 250px;
+
 }
 .white-button {
-    width: 84px;
-    height: 40px;
+    max-width: 84px;
+    
 }
 .bg-image-h4 {
     font-family: 'Inter', sans-serif;
@@ -187,7 +197,7 @@
     text-align: center;
 }
 .bg-image-h2 {
-    width: 540px;
+    max-width: 540px;
     height: 96px;
     font-family: 'Inter', sans-serif;
     font-size: 40px;
@@ -197,16 +207,16 @@
 
 }
 .footer {
-    width: 1440px;
-    height: 336px;
+    max-width: 1440px;
+    
     background-color: #000000;
     color: #FFFFFF;
     padding: 96px 150px 96px 150px;
     
 }
 .footer-container {
-    width: 1140px;
-    height: 144px;
+    max-width: 1140px;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -215,6 +225,10 @@
     
 
 
+}
+.footer-container-box {
+    display: flex;
+    flex-direction: row;
 }
 .footer-h2 {
     font-family: 'Inter', sans-serif;
@@ -254,3 +268,10 @@
     flex-direction: column;
     gap: 24px;
 }
+.burger-bar {
+    display: none;
+   
+    
+}
+
+
